@@ -16,7 +16,7 @@ function App() {
             <Route path="/" element={<MainPage/>}></Route>
             <Route path="profileCard" element={<ProfileCard/>}></Route>
             <Route path="CitySkyline" element={<CitySkyline/>}></Route>
-            <Route path="junior/*" element={<Junior />} />
+            <Route path="junior/*" element={<Junior/>} />
         </Routes>
         </div>
     </div>
